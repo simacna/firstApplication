@@ -14,6 +14,8 @@
 		1527EFC619F69C270035C8D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1527EFC519F69C270035C8D5 /* Images.xcassets */; };
 		1527EFC919F69C270035C8D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1527EFC719F69C270035C8D5 /* LaunchScreen.xib */; };
 		1527EFD519F69C270035C8D5 /* FirstApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1527EFD419F69C270035C8D5 /* FirstApplicationTests.m */; };
+		1527F01119F6FF030035C8D5 /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1527F01019F6FF030035C8D5 /* me.jpg */; };
+		1527F01319F700DA0035C8D5 /* DSC06538 copy.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1527F01219F700DA0035C8D5 /* DSC06538 copy.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		1527EFCE19F69C270035C8D5 /* FirstApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1527EFD319F69C270035C8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1527EFD419F69C270035C8D5 /* FirstApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstApplicationTests.m; sourceTree = "<group>"; };
+		1527F01019F6FF030035C8D5 /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
+		1527F01219F700DA0035C8D5 /* DSC06538 copy.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DSC06538 copy.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		1527EFB819F69C270035C8D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1527F01219F700DA0035C8D5 /* DSC06538 copy.JPG */,
+				1527F01019F6FF030035C8D5 /* me.jpg */,
 				1527EFB919F69C270035C8D5 /* Info.plist */,
 				1527EFBA19F69C270035C8D5 /* main.m */,
 			);
@@ -199,9 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1527F01319F700DA0035C8D5 /* DSC06538 copy.JPG in Resources */,
 				1527EFC419F69C270035C8D5 /* Main.storyboard in Resources */,
 				1527EFC919F69C270035C8D5 /* LaunchScreen.xib in Resources */,
 				1527EFC619F69C270035C8D5 /* Images.xcassets in Resources */,
+				1527F01119F6FF030035C8D5 /* me.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FirstApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FirstApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +422,7 @@
 				1527EFDA19F69C270035C8D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1527EFDB19F69C270035C8D5 /* Build configuration list for PBXNativeTarget "FirstApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +431,7 @@
 				1527EFDD19F69C270035C8D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
